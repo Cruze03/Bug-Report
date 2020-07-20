@@ -1,0 +1,73 @@
+"Phrases"
+{
+	"BugReport_TypeOwnReason"
+	{
+		"en"		"You now can describe the bug in the chat, please keep it short and informative.\nType '!noreason' or '!abort' to abort"
+	}
+	"BugReport_CallAborted"
+	{
+		"en"		"Bug Report has been aborted. Type !bugreport to report again."
+	}
+	"BugReport_OwnReasonTooShort"
+	{
+		"en"		"Your bug report is too short, please try it again."
+	}
+	"BugReport_ConfirmCall"
+	{
+		"en"		"Are you sure you want to report this bug to an admin? Abuse will be punished"
+	}
+	"BugReport_Yes"
+	{
+		"en"		"Yes"
+		"de"		"Ja"
+		"fr"		"Oui"
+		"ru"		"Да"
+		"pl"		"Tak"
+	}
+	"BugReport_No"
+	{
+		"en"		"No"
+		"de"		"Nein"
+		"fr"		"Non"
+		"ru"		"Нет"
+		"pl"		"Nie"
+	}
+	"BugReport_NotifyAdmins"
+	{
+		"#format"	"{1:N},{2:s}"
+		"en"		"{1} reported a following bug in the server: {2}"
+	}
+	"BugReport_Successful"
+	{
+		"en"		"Thanks for your report! We'll try to fix this asap."
+	}
+	"BugReport_NoAdmin"
+	{
+		"en"		"Only admins have access to this command."
+		"de"		"Nur Admins können diesen Befehl ausführen"
+		"ru"		"Только администраторы имеют доступ к этой команде"
+		"fr"		"Seuls les administrateurs ont accès à cette commande"
+		"pl"		"Tylko admini mają dostęp do tej komendy"
+	}
+	"BugReport_Reloaded"
+	{
+		"en"		"Reloaded BugReport."
+	}
+	"BugReport_Cooldown"
+	{
+		"#format"	"{1:d}"
+		"en"		"You are not allowed to use this command for the next {1} seconds"
+		"de"		"Du darfst diesen Befehl nicht innerhalb der nächsten {1} Sekunden benutzen"
+		"fr"		"Vous ne pouvez pas utiliser cette commande avant {1} secondes"
+		"ru"		"Вы не можете использовать эту команду в течение следующих {1} секунд"
+		"pl"		"Nie możesz użyć tej komendy przez {1} sekund"
+	}
+	"BugReport_SelectBug"
+	{
+		"en"		"Select the bug you're facing:"
+	}
+	"BugReport_DescribeBug"
+	{
+		"en"		"Describe Bug"
+	}
+}
