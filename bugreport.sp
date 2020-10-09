@@ -24,7 +24,7 @@ public Plugin myinfo =
 	name = "Bug Report",
 	author = "Cruze",
 	description = "Players can report bugs.",
-	version = "1.0",
+	version = "1.1",
 	url = "http://www.steamcommunity.com/profiles/76561198132924835"
 };
 
@@ -133,6 +133,8 @@ void ParseReasonList()
 public void OnMapStart()
 {
 	g_hReportedReasons.Clear();
+	g_hBugReportReasons.Clear();
+	ParseReasonList();
 }
 
 public void OnClientPutInServer(int client)
