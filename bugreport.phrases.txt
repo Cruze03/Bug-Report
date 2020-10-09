@@ -2,72 +2,81 @@
 {
 	"BugReport_TypeOwnReason"
 	{
-		"en"		"You now can describe the bug in the chat, please keep it short and informative.\nType '!noreason' or '!abort' to abort"
+		"en"	"You now can describe the bug in the chat, please keep it short and informative.\nType '!noreason' or '!abort' to abort"
+		"pl"	"Możesz napisać teraz bug na czacie, postaraj się żeby był krótki i treściwy.\nNapisz '!noreason' albo '!abort' żeby anulować"
 	}
 	"BugReport_CallAborted"
 	{
-		"en"		"Bug Report has been aborted. Type !bugreport to report again."
+		"en"	"Bug Report has been aborted. Type !bugreport to report again."
+		"pl" "Przerwałeś zgłaszanie błędu. Napisz !bugreport żeby zgłosić inny błąd."
 	}
 	"BugReport_OwnReasonTooShort"
 	{
-		"en"		"Your bug report is too short, please try it again."
+		"en"	"Your bug report is too short, please try it again."
+		"pl"	"Twój opis błędu jest za krótki, napisz go ponownie."
 	}
 	"BugReport_ConfirmCall"
 	{
-		"en"		"Are you sure you want to report this bug to an admin? Abuse will be punished"
+		"en"	"Are you sure you want to report this bug to an admin? Abuse will be punished"
+		"pl"	"Jesteś pewien, że chcesz zgłosić ten błąd to adminów? Nadużywanie zostanie ukarane"
 	}
 	"BugReport_Yes"
 	{
-		"en"		"Yes"
-		"de"		"Ja"
-		"fr"		"Oui"
-		"ru"		"Да"
-		"pl"		"Tak"
+		"en"	"Yes"
+		"de"	"Ja"
+		"fr"	"Oui"
+		"ru"	"Да"
+		"pl"	"Tak"
 	}
 	"BugReport_No"
 	{
-		"en"		"No"
-		"de"		"Nein"
-		"fr"		"Non"
-		"ru"		"Нет"
-		"pl"		"Nie"
+		"en"	"No"
+		"de"	"Nein"
+		"fr"	"Non"
+		"ru"	"Нет"
+		"pl"	"Nie"
 	}
 	"BugReport_NotifyAdmins"
 	{
-		"#format"	"{1:N},{2:s}"
-		"en"		"{1} reported a following bug in the server: {2}"
+		"#format" "{1:N},{2:s}"
+		"en"	"{1} reported a following bug in the server: {2}"
+		"pl"	"{1} zgłosił błąd na serwerze: {2}"
 	}
 	"BugReport_Successful"
 	{
-		"en"		"Thanks for your report! We'll try to fix this asap."
+		"en"	"Thanks for your report! We'll try to fix this asap."
+		"pl"	"Dziękujemy za twoje zgłoszenie! Spróbujemy naprawić to jak najszybciej to możliwe."
 	}
 	"BugReport_NoAdmin"
 	{
-		"en"		"Only admins have access to this command."
-		"de"		"Nur Admins können diesen Befehl ausführen"
-		"ru"		"Только администраторы имеют доступ к этой команде"
-		"fr"		"Seuls les administrateurs ont accès à cette commande"
-		"pl"		"Tylko admini mają dostęp do tej komendy"
+		"en"	"Only admins have access to this command."
+		"de"	"Nur Admins können diesen Befehl ausführen"
+		"ru"	"Только администраторы имеют доступ к этой команде"
+		"fr"	"Seuls les administrateurs ont accès à cette commande"
+		"pl"	"Tylko admini mają dostęp do tej komendy"
 	}
 	"BugReport_Reloaded"
 	{
-		"en"		"Reloaded BugReport."
+		"en"	"Reloaded BugReport."
+		"pl"	"BugReport został załadowany ponownie."
 	}
 	"BugReport_Cooldown"
 	{
-		"#format"	"{1:d}"
-		"en"		"You are not allowed to use this command for the next {1} seconds"
-		"de"		"Du darfst diesen Befehl nicht innerhalb der nächsten {1} Sekunden benutzen"
-		"fr"		"Vous ne pouvez pas utiliser cette commande avant {1} secondes"
-		"ru"		"Вы не можете использовать эту команду в течение следующих {1} секунд"
-		"pl"		"Nie możesz użyć tej komendy przez {1} sekund"
+		"#format" "{1:d}"
+		"en"	"You are not allowed to use this command for the next {1} seconds"
+		"de"	"Du darfst diesen Befehl nicht innerhalb der nächsten {1} Sekunden benutzen"
+		"fr"	"Vous ne pouvez pas utiliser cette commande avant {1} secondes"
+		"ru"	"Вы не можете использовать эту команду в течение следующих {1} секунд"
+		"pl"	"Nie możesz użyć tej komendy przez {1} sekund"
 	}
 	"BugReport_SelectBug"
 	{
-		"en"		"Select the bug you're facing:"
+		"en"	"Select the bug you're facing:"
+		"pl"	"Wybierz bug z jakim masz do czynienia:"
 	}
 	"BugReport_DescribeBug"
 	{
-		"en"		"Describe Bug"
+		"en"	"Describe Bug"
+		"pl"	"Opisz Bug"
 	}
 }
